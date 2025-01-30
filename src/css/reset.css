@@ -1,0 +1,45 @@
+/* Reset geral para todos os elementos */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/* Definindo estilos padrão para alguns elementos comuns */
+body {
+  line-height: 1.5;
+}
+
+/* Ajuste para tabelas */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Ajuste para listas */
+ul, ol {
+  list-style: none;
+}
+
+/* Ajuste para formatação de inputs e botões */
+input, button, textarea, select {
+  border: none;
+  outline: none;
+  background: none;
+  font: inherit;
+}
+
+/* Garantir que links não tenham estilo padrão */
+a {
+  text-decoration: none;
+}
+
+/* Ajuste de imagem */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
